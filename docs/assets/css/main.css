@@ -2456,6 +2456,12 @@ input, select, textarea {
 			padding-top: 2em;
 		}
 
+		#main p{
+			font-size: 15pt;
+			text-align: left;
+		}
+
+
 /* Footer */
 
 	#footer {
@@ -2482,7 +2488,7 @@ input, select, textarea {
 
 		#footer strong{
 			color: #fff;
-			
+
 		}
 
 		#footer .contact {
