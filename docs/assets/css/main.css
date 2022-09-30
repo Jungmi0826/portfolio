@@ -25,6 +25,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -87,7 +88,7 @@ input, select, textarea {
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Noto Sans KR', sans-serif;
 		font-weight: 300;
 	}
 
@@ -1935,7 +1936,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #328b69b9;
 				}
 
 /* Form */
@@ -1972,7 +1973,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #df7366;
+			border-color:#328b69b9;
 		}
 
 	form input[type="text"],
@@ -2008,9 +2009,7 @@ input, select, textarea {
 
 /* Table */
 
-	table {
-		width: 100%;
-	}
+
 
 		table.default {
 			width: 100%;
@@ -2077,7 +2076,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #328b69b9;
 		}
 
 		input[type="button"].alt,
@@ -2461,13 +2460,67 @@ input, select, textarea {
 			text-align: left;
 		}
 
+		#main img {
+			width: 300px;
+			
+		}
+
+		#main table {
+			text-align: left;
+			margin-top: -40px;
+			
+		}
+
+		.article {
+			margin-left: 300px;
+			width: 300px;
+
+		}
+		.text01 {
+			float: left;
+			margin-top: -450px;
+			margin-left: 700px;
+		}
+		.text01 table {
+			padding-bottom: 20px;
+			font-size: 14pt;
+			width: 450px;
+		}
+
+		table caption {
+			text-align: left;
+			font-weight: 500;
+			margin-bottom: 15px;
+		}
+
+		.text02 {
+			float: right;
+			margin-top: -450px;
+			margin-right: 350px;
+		}
+
+		.text02 table {
+			font-size: 14pt;
+			width: 380px;
+		}
+
+
+
+		table td {
+			line-height: 50px;
+		}
+		
+
+
+
+
 
 /* Footer */
 
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
+		padding: 2em 0 3em 0;
 		background: #2b252c;
 		color: #fff;
 	}
@@ -2562,7 +2615,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color: rgba(50, 139, 105, 0.6);
 			}
 
 		.carousel .forward {
@@ -2615,6 +2668,7 @@ input, select, textarea {
 			transition: opacity 0.75s ease-in-out;
 		}
 
+	
 			.carousel article.loading {
 				opacity: 0;
 			}
